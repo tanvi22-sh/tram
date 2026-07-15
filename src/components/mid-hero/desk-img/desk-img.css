@@ -1,0 +1,14 @@
+.desk-1 {
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+  display: block;
+  border-radius: 50%;
+}
+img {
+  transition: transform 0.5s;
+}
+
+img:hover {
+  transform: scale(1.04);
+}

@@ -1,0 +1,26 @@
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap");
+
+.hero {
+  margin-top: 80px;
+}
+.hero-head {
+  text-align: center;
+  width: 100%;
+}
+.hero-head h1 {
+  font-family: "Gerbill", sans-serif;
+  width: 1305px;
+  font-size: 65px;
+}
+.hero-head h3 {
+  font-family: "Satoshi", sans-serif;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gerbill";
+  src: url("../assets/fonts/gerbil.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

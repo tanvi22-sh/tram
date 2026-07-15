@@ -1,0 +1,136 @@
+.heroPeople {
+  position: relative;
+  width: 100%;
+  padding: 0px 30px;
+  height: 420px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.leftArc {
+  position: absolute;
+  top: 20px;
+  left: -45px;
+}
+
+.arc {
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid transparent;
+}
+
+.arc1 {
+  width: 140px;
+  height: 140px;
+  border-right-color: #2d1f49;
+  border-top-color: #2d1f49;
+}
+
+.arc2 {
+  width: 105px;
+  height: 105px;
+  top: 18px;
+  left: 18px;
+  border-right-color: #ef6b52;
+  border-top-color: #ef6b52;
+}
+
+.avatar {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #eee;
+  border: 8px solid #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p1 {
+  width: 140px;
+  height: 140px;
+  left: 70px;
+  top: 150px;
+}
+
+.p2 {
+  width: 125px;
+  height: 125px;
+  left: 190px;
+  top: 95px;
+}
+
+.p3 {
+  width: 120px;
+  height: 120px;
+  left: 470px;
+  top: 20px;
+}
+
+.p4 {
+  width: 125px;
+  height: 125px;
+  left: 600px;
+  top: 185px;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.avatar {
+  animation: float 4s ease-in-out infinite;
+}
+
+.avatar:nth-child(even) {
+  animation-delay: 1s;
+}
+.p5 {
+  width: 140px;
+  height: 140px;
+  left: 860px;
+  top: 70px;
+}
+
+.p6 {
+  width: 125px;
+  height: 125px;
+  left: 1010px;
+  top: 130px;
+}
+
+.p7 {
+  width: 140px;
+  height: 140px;
+  right: 150px;
+  top: 35px;
+}
+
+.p8 {
+  width: 115px;
+  height: 115px;
+  right: 25px;
+  top: 165px;
+}
+
+@media (max-width: 768px) {
+  .heroPeople {
+    height: 650px;
+  }
+
+  .avatar {
+    transform: scale(0.75);
+    transform-origin: top left;
+  }
+}
